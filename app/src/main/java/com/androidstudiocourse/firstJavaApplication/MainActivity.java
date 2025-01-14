@@ -1,6 +1,8 @@
 package com.androidstudiocourse.firstJavaApplication;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,7 +22,16 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    R.id.hola
+    }
+
+    public void funButton(View view) {
+        TextView textView = findViewById(R.id.hola);
+        if (textView.getText() == "Antiguo texto") {
+            textView.setText("Nuevo texto");
+        } else {
+            textView.setText("Antiguo texto");
+        }
+//        OnClickEventHandler section
     }
 
 }
