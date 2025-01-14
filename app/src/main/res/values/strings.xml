@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">First Java Application</string>
+    <string name="gameTitle">Tic Tac Toe</string>
+    <string name="text1">X is your turn</string>
+    <string name="text2">O is your turn</string>
 </resources>

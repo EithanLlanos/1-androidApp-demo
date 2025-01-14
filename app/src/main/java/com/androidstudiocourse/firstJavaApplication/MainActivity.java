@@ -2,6 +2,8 @@ package com.androidstudiocourse.firstJavaApplication;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,14 +25,19 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void funButton(View view) {
-//        TextView textView = findViewById(R.id.hola);
-//        if (textView.getText() == "Antiguo texto") {
-//            textView.setText("Nuevo texto");
-//        } else {
-//            textView.setText("Antiguo texto");
+    public void gameAction(View view) {
+        Button but = (Button) view;
+        TextView tView = findViewById(R.id.textView3);
+//        if (tView.getText() == R.string.text1) {
+//            but.setText("X");
 //        }
-//        OnClickEventHandler section
+        if (tView.getText().equals(getString(R.string.text1))) {
+            but.setText("X");
+            tView.setText(R.string.text2);
+            return;
+        }
+        but.setText("O");
+        tView.setText(R.string.text1);
     }
 
 }
