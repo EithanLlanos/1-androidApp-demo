@@ -18,100 +18,110 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btn0"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="348dp"
+            android:onClick="gameAction"
+            android:tag="0"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btn1"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginEnd="148dp"
             android:layout_marginBottom="348dp"
             android:onClick="gameAction"
+            android:tag="1"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btn2"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="348dp"
             android:onClick="gameAction"
+
+            android:tag="2"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btn3"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginEnd="280dp"
             android:layout_marginBottom="221dp"
             android:onClick="gameAction"
+            android:tag="3"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/btn4"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="221dp"
+            android:onClick="gameAction"
+            android:tag="4"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btn5"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="221dp"
             android:onClick="gameAction"
+            android:tag="5"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/btn6"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="97dp"
+            android:onClick="gameAction"
+            android:tag="6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="97dp"
+            android:onClick="gameAction"
+            android:tag="7"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btn8"
             android:layout_width="115dp"
             android:layout_height="115dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="98dp"
             android:onClick="gameAction"
+            android:tag="8"
             android:text=""
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="221dp"
-            android:onClick="gameAction"
-            android:text=""
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:layout_marginEnd="280dp"
-            android:layout_marginBottom="348dp"
-            android:onClick="gameAction"
-            android:text=""
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="97dp"
-            android:onClick="gameAction"
-            android:text=""
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:layout_marginEnd="280dp"
-            android:layout_marginBottom="97dp"
-            android:onClick="gameAction"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
